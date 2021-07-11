@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Biblioteca</title>
+<link rel="icon" href="imagens/livro.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Adicionar novo livro</h1>
+	<form name="frmNovolivro" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="autor" placeholder="Autor" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="editora" placeholder="Editora" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="anodepublicacao" placeholder="Ano de publicação" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="numerodepaginas" placeholder="Número de páginas" class="Caixa2"></td>
+			</tr>	
+		</table>	
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+	</form>
+<script src="scripts/validador.js"></script>
+</body>
+</html>
